@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab5_CMPE125.srcs/sources_1/new/AND_module.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/imports/new/CLA.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/new/CLA_8Bit.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/imports/new/cla_adder.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/imports/new/half_adder.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/new/multiplier.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/new/shifter.v" \
+"../../../../lab5_CMPE125.srcs/sources_1/imports/new/xor.v" \
+"../../../../lab5_CMPE125.srcs/sim_1/new/tb_multiplier.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
